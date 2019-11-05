@@ -3,8 +3,12 @@ Simple implementation of a bubble sorting method on ruby with some test cases. <
 
 # Authors
 
-<a href="https://github.com/Tekcoder">Roheem Olayemi</a>
-<a href="https://github.com/Audrey-Ella-xo">Odiaka Emmanuella Anita</a>
+<ul>
+  <li>
+<a href="https://github.com/Tekcoder">Roheem Olayemi</a></li>
+  <li><a href="https://github.com/Audrey-Ella-xo">Odiaka Emmanuella Anita</a></li>
+</ul>
+
 
 # License
 

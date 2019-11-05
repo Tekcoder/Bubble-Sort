@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def bubble_sort(arr)
   checker = true
   while checker
@@ -12,7 +14,6 @@ def bubble_sort(arr)
   arr
 end
 
-
 def bubble_sort_by(arr)
   checker = true
   while checker
@@ -20,9 +21,10 @@ def bubble_sort_by(arr)
     (arr.length - 1).times do |x|
       values = yield(arr[x], arr[x + 1])
       next unless values.positive?
-        arr[x], arr[x + 1] = arr[x + 1], arr[x]
-        checker = true
-      end
+
+      arr[x], arr[x + 1] = arr[x + 1], arr[x]
+      checker = true
+    end
     end
   arr
 end
